@@ -1,0 +1,124 @@
+*{
+    margin: 10px;
+}
+
+
+
+.headder h1{
+    color: orange;
+    font-size: 35px;
+}
+
+.headder a{
+    text-decoration: none;
+    color: orange;
+}
+
+.top{
+    position: relative;
+}
+
+.top nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    display: flex;
+    height: 35px;
+}
+
+.top a{
+    text-decoration: none;
+    width: 20px;
+}
+
+.top a:hover{
+    color: whitesmoke;
+    font-size: large;
+    transition: 0.5s;
+}
+
+.bot{
+    position: relative;
+    width: 95%;
+    height: 100vh;
+    background-color: rgb(250, 240, 240);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bot h2{
+    position: relative;
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.bot p{
+    position: relative;
+    display: flex;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.button{
+    background-color: orange;
+    width: fit-content;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+.button a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+.button a:hover{
+    color: orange;
+    
+}
+
+/*Button 2*/
+.button2{
+    background-color: orange;
+    width: fit-content;
+    height: 35px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.button2 a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.button2:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+.button2 a:hover{
+    color: orange;
+    
+}
+
+video{
+    padding-left: 22%;
+}

@@ -1,0 +1,63 @@
+*{
+    margin: 10px;
+}
+
+.head h1{
+    color: orange;
+    font-size: 35px;
+
+}
+
+.head a{
+    text-decoration: none;
+    color: orange;
+}
+
+.top{
+    position: relative;
+}
+
+.top nav ul{
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: orange;
+    position: relative;
+    display: flex;
+    height: 35px;
+}
+
+.top a{
+    text-decoration: none;
+    width: 20px;
+    padding-left: 10px;
+}
+
+.top a:hover{
+    color: whitesmoke;
+    font-size: large;
+    transition: 0.5s;
+}
+
+#container {
+    margin: 100px auto;
+    max-width: 400px;
+}
+#word {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#input {
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+#check-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
